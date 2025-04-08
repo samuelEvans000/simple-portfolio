@@ -1,8 +1,7 @@
 import React from 'react';
 import AnimatedBackground from '@/components/core/animated-background';
 import { FaReact, FaNodeJs, FaPython, FaHtml5, FaCss3Alt, FaWordpress } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiNextdotjs, SiSvelte, SiDjango, SiFastapi, SiMaterialdesign, SiTailwindcss, SiDocker, SiGooglecloud, SiGit, SiJenkins } from 'react-icons/si';
-import { TbBrandGolang } from 'react-icons/tb';
+import { SiJavascript, SiNextdotjs, SiFastapi, SiMaterialdesign, SiTailwindcss, SiGit } from 'react-icons/si';
 import { IconType } from 'react-icons';
 
 interface Skill {
