@@ -23,7 +23,7 @@ const TABS = [
         <TextEffect per='char' preset='fade' className="text-2xl">
           I'm a Frontend Developer.
         </TextEffect>
-        <a target='_blank' href='https://drive.google.com/file/d/1TiKJH_Imaq87FzGDEmPS9O4nkrmdDQUJ/view?usp=drivesdk' download className='btn flex items-center gap-4'><MoveRight className='h-5 w-5 mt-1'/><TextEffect className="text-2xl">My Resume</TextEffect></a>
+        <a target='_blank' href='https://drive.google.com/file/d/1IsJtabsqym9WPq3zX49q0kOmRF-Pd1sG/view?usp=sharing' download className='btn flex items-center gap-4'><MoveRight className='h-5 w-5 mt-1'/><TextEffect className="text-2xl">My Resume</TextEffect></a>
       </div>
     ),
   },
