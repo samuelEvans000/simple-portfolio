@@ -33,6 +33,7 @@ export function Skills() {
       title: 'Frontend',
       skills: [
         { title: 'React.js', icon: FaReact, level: 'Experienced' },
+        { title: 'React Native', icon: FaReact, level: 'Intermediate' },
         { title: 'Next.js', icon: SiNextdotjs, level: 'Intermediate' },
         { title: 'JavaScript', icon: SiJavascript, level: 'Experienced' },
         { title: 'HTML5', icon: FaHtml5, level: 'Experienced' },
