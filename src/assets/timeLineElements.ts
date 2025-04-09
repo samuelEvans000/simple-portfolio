@@ -32,7 +32,7 @@ const timelineElements = [
     date: "2024 may-Present",
     icon: "bit",
     color: "purple",
-    tech: ["JavaScript", "React" ,"Next.js" ,"HTML/CSS", "wordpress", "tailwind css", "Git", "RESTful APIs" ],
+    tech: ["JavaScript", "React" ,"Next.js" , "React Native" ,"HTML/CSS", "wordpress", "tailwind css", "Git", "RESTful APIs" ],
     logo: "bit"
   },
 
