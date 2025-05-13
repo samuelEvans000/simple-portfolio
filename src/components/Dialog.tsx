@@ -21,6 +21,8 @@ import IMG4 from '../assets/university.png';
 import IMG5 from '../assets/ekam.png';
 import IMG6 from '../assets/portfolio6.png';
 import IMG7 from '../assets/weather.png';
+import IMG8 from '../assets/memoir.png';
+import IMG9 from '../assets/vetrans.png';
 
 interface ProjectData {
     id: number;
@@ -33,12 +35,28 @@ interface ProjectData {
 
 const data = [
   {
+    id: 8,
+    image: IMG8,
+    title: "BitMemoir",
+    github: 'https://github.com/samuelEvans000/BitMemoirFrontendV2',
+    demo: 'https://www.bitmemoir.com/en',
+    description: "BitMemoir is a unique blockchain-based platform focusing primarily on negating the possibility of creating fake credentials or fudging the documents. The aim is to develop and nurture an ecosystem of verified documents and journey mapping an individual’s life."
+  },
+  {
     id: 0,
     image: IMG0,
     title: "BitBhoomi",
     github: 'https://github.com/NavrajBIT/NFTreeClient',
     demo: 'https://bitbhoomi.com/',
     description: "This is an blockchain website, where users can buy types of trees and plants using crypto currency."
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: "Veterans Connect",
+    github: 'https://github.com/samuelEvans000/VeteransConnectApp',
+    demo: '',
+    description: "This is an APplication for Uniting Veterans. Empowering Lives."
   },
   {
     id: 1,
@@ -130,7 +148,7 @@ function ProjectDialog({ project }: ProjectDialogProps) {
         <DialogImage
           src={project.image}
           alt={project.title}
-          className='h-48 w-full object-cover'
+          className='h-48 w-full object-full'
         />
         <div className='flex flex-grow flex-row items-end justify-between p-2'>
           <div>
